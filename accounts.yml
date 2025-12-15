@@ -1,0 +1,8 @@
+app:
+ message: "Welcome to Accounts Application"
+ contactDetails:
+  name: John Deo
+  email: john@gmail.com
+ onCallSupport:
+  - (98495) 01442
+  - (98480) 32919
