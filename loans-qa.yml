@@ -1,5 +1,5 @@
 app:
- message: "Welcome to Accounts Application QA"
+ message: "Welcome to Loans Application QA"
  contactDetails:
   name: Jane Smith
   email: janeSmith@gmail.com
