@@ -1,0 +1,8 @@
+app:
+ message: "Welcome to Cards Application Production"
+ contactDetails:
+  name: John Smith
+  email: smithJohn@gmail.com
+ onCallSupport:
+  - (98480) 32919
+  - (98495) 01442
