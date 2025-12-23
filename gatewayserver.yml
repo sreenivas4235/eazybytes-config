@@ -40,3 +40,4 @@ spring:
           discovery:
             locator:
               enabled: false
+              lower-case-service-id: true
