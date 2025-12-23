@@ -1,0 +1,42 @@
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+        - "*" 
+  
+  endpoint:
+    gateway:
+      access: unrestricted
+      
+  info:
+    env:
+      enabled: true
+      
+info:
+  app:
+    name: gatewayserver
+    description: Easy Bank Gateway Server Application
+    version: 1.0.0
+    
+eureka:
+  instance:
+    prefer-ip-address: true
+    
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://localhost:8070/eureka/
+      
+server:
+  port: 8072
+
+spring:
+  cloud:
+    gateway:
+      server:
+        webflux:
+          discovery:
+            locator:
+              enabled: true
